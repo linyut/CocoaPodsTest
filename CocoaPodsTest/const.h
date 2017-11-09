@@ -9,11 +9,9 @@
 #ifndef const_h
 #define const_h
 
-//  定义 appdeleagte
 #define KAPPDELEGATE ((AppDelegate*)([UIApplication sharedApplication].delegate))
 
 #define kScreenWidth [[UIScreen mainScreen] bounds].size.width//设备屏幕宽度
-
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height//设备屏幕高度
 
 //weakself
